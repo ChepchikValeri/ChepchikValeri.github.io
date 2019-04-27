@@ -1,0 +1,170 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	margin: 0px;
+	-ms-text-size-adjust :50%;
+	-moz-text-size-adjust : 50%;
+	-webkit-text-size-adjust : 50%;
+}
+#top-header{
+	background-color: #D2CCCC;
+	padding: 0.5%;
+}
+#mid-header{
+	background-color: white;
+	padding: 1%;
+}
+#bottom-header{
+	font-size: 1em;
+	padding: 0.5%;
+	background-color: #D41616;
+}
+#bottom-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: #F1F1F1F1;
+	width: auto;
+}
+.row-top{
+	font-size: 80%;
+	vertical-align: middle;
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr 1fr 1fr 1fr;
+}
+.row-mid{
+	font-size: 120%;
+	margin-left: 10%;
+	vertical-align: middle;
+	display: inline;
+	grid-template-columns: 1fr 2fr; 
+}
+.row-bottom{
+	font-size: 120%;
+	color: white;
+	vertical-align: middle;
+	display: grid;
+	grid-template-columns: 0.25fr 2fr;
+	line-height: 41px;
+	height: 4%;
+}
+.top_link{
+	text-decoration: none;
+	color: #707070;
+}
+/*.icon_search {
+    background: url('./search.svg');
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    display: block;
+    vertical-align: middle;
+    
+}*/
+.text-color-main:after{
+  content: '\002B';
+  color: #D41616;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.icon-expand {
+    background: url('./expand.ico');
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    top:50%;
+    display: block;
+    vertical-align: middle;
+    color: white;
+    margin-top: 10%;
+    margin-left: 50%;
+    /* Other styles here */
+}
+.icon-wheel{
+content: url(./wheel.png);
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+}
+.icon-text-pair{
+	height: 50%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+	vertical-align: middle;
+	margin: 5%;
+}
+.icon-text-pair-text{
+	font-size: calc(0.5em+3vw);
+	height: auto;
+	margin: auto;
+}
+.text-color-main{
+	color: #D41616;
+	padding: 16px;
+}
+.text-color-white{
+	color: white;
+}
+.background-color-main{
+	background-color: #D41616
+}
+.col{
+	vertical-align: middle;
+}
+.image-main{
+	content: url(./mainmage.jpg);
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.collapsible{
+	background-color: #D41616;
+	color:white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border:none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+
+}
+.choose-content{
+	border-radius: 5px;
+	background-color: #D41616;
+	color:white;
+	cursor: pointer;
+	padding: 18px;
+	border:none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #D2CCCC;
+}
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+/* Style the collapsible content. Note: hidden by default */
+.content{
+  padding: 0px 18px 0px 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+#services div:last-child{
+	margin-bottom: 20px;
+}
+#oil-p:after{
+  content: "\2212";
+}

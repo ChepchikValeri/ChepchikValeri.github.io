@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="./Nunito.css" rel="stylesheet">
+	<title>AutoSe</title>
+</head>
+<body>
+		<div id="top-header">
+			<div class="row-top">
+			<div class="col">
+				<a class="top_link" href="">Contact us</a>
+			</div>
+			<div class="col">
+				<a class="top_link" href="">About us</a>
+			</div>
+			<div class="col">
+				<a class="top_link" href="">Guarantees</a>
+			</div>
+			<div class="col" style="text-align: center;">
+				<a  class="top_link" href="">Log in</a>
+			</div>
+			<div class="col">
+				<a class="top_link" href="">Sign up</a>
+			</div>
+			</div>
+		</div>
+				<div class="col text-color-main" >
+					Телефоны
+				</div>
+				<!--<div class="col icon_search">
+				</div>-->
+
+		<button class="collapsible">
+			Услуги автосервиса
+		</button>
+		<div class="content" id="services">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas provident animi ad alias necessitatibus, quia dolore eius repellendus molestias ducimus amet similique incidunt modi placeat deserunt deleniti illo. Placeat, nulla!</p>
+			<a href="./oil.html" style="text-decoration: none;">
+				<div class="choose-content">
+					<p>OIL CHANGE</p>
+				</div>
+			</a>
+		</div>
+<div class="image-main"></div>
+<div id="bottom-grid">
+	<div class ="icon-text-pair">
+		<div class="icon-wheel"></div>
+		<div class="icon-text-pair-text">
+			На рынке со времен Лордерона
+		</div>
+	</div>
+	<div class ="icon-text-pair">
+		<div class="icon-wheel"></div>
+		<div class="icon-text-pair-text">
+			На рынке со времен Лордерона
+		</div>
+	</div>
+		<div class ="icon-text-pair">
+		<div class="icon-wheel"></div>
+		<div class="icon-text-pair-text">
+			На рынке со времен Лордерона
+		</div>
+	</div>
+		<div class ="icon-text-pair">
+		<div class="icon-wheel"></div>
+		<div class="icon-text-pair-text">
+			На рынке со времен Лордерона
+		</div>
+	</div>
+		<div class ="icon-text-pair">
+		<div class="icon-wheel"></div>
+		<div class="icon-text-pair-text">
+			На рынке со времен Лордерона
+		</div>
+	</div>
+		<div class ="icon-text-pair">
+		<div class="icon-wheel"></div>
+		<div class="icon-text-pair-text">
+			На рынке со времен Лордерона
+		</div>
+	</div>
+
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
